@@ -12,7 +12,7 @@
 
 在 Releases 中选择版本，下载 `YuHuo-AI-Roaster_<版本>_macOS_universal.dmg`。通用安装包同时包含 Apple 芯片和 Intel 架构；每个版本附带安装说明、构建信息和 SHA-256 校验文件。
 
-当前推荐 [0.2.5 正式版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.5)。签名、公证与验证结果见本 Release 的 `BUILD-INFO.txt` / `NOTARIZATION.json`，文件校验值见 `SHA256SUMS.txt`。此前版本的状态以各自 Release 为准。Intel Mac 尚未实机验收。
+当前推荐 [0.2.6 正式版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.6)。签名、公证与验证结果见本 Release 的 `BUILD-INFO.txt` / `NOTARIZATION.json`，文件校验值见 `SHA256SUMS.txt`。此前版本的状态以各自 Release 为准。Intel Mac 尚未实机验收。
 
 支持简体中文、English 和日本語界面，默认跟随系统语言。可在“软件设置 → 常规 → 语言”中手动选择，点击“保存设置”后生效并保留选择。应用内中文名称为 **余火**，英文和日文名称为 **AI Roaster**。Finder 和 Dock 的名称由 macOS 语言设置独立决定，可能在系统重新识别应用后更新。
 
