@@ -10,7 +10,7 @@
 
 在 Releases 中选择版本，下载 `YuHuo-AI-Roaster_<版本>_macOS_universal.dmg`。通用安装包同时包含 Apple 芯片和 Intel 架构；每个版本附带安装说明、构建信息和 SHA-256 校验文件。
 
-当前提供预览版。请查看对应 Release 的签名与公证状态；已签名、未公证的预览包首次打开可能被 macOS 阻止，处理步骤见安装说明。Intel Mac 尚未实机验收。
+当前推荐 [0.2.3 公证预览版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.3)：App 和 DMG 均已使用 Developer ID 签名、通过 Apple 公证并附加票据，Gatekeeper 检查通过。此前版本的状态以各自 Release 为准。Intel Mac 尚未实机验收。
 
 从 0.2.1 起，应用右上角菜单提供“检查软件更新”，通过本仓库公开的 GitHub Releases 检测新版。默认仅检查正式版本；试用预览版需勾选“包含预发布版本”。更新检测只提供下载入口，安装由用户操作。
 
