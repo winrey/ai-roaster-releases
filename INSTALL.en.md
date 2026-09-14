@@ -8,7 +8,7 @@ Make every quota count.
 
 ## Installation
 
-1. Download `YuHuo-AI-Roaster_0.2.4_macOS_universal.dmg` from [Releases](https://github.com/winrey/ai-roaster-releases/releases) and open it.
+1. Download `YuHuo-AI-Roaster_0.2.5_macOS_universal.dmg` from [Releases](https://github.com/winrey/ai-roaster-releases/releases) and open it.
 2. Drag the app from the installer into **Applications**.
 3. Open **AI Roaster** from Applications (**余火** on a Chinese-language system).
 
@@ -18,11 +18,19 @@ Quit the older version before installing and starting the new one. The app's int
 
 The universal installer includes both Apple silicon and Intel architectures. Runtime testing has been performed on macOS 26.1 with Apple silicon. Intel Macs and earlier macOS versions have not yet been tested on real devices.
 
-The currently recommended release is the [v0.2.4 stable release](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.4). Both the app and DMG are Developer ID signed, notarized by Apple, and stapled with notarization tickets; Gatekeeper checks passed. You may still see the normal confirmation that the app was downloaded from the internet when you first open it.
+The currently recommended release is the [v0.2.5 stable release](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.5). See this release's `BUILD-INFO.txt` / `NOTARIZATION.json` for signing, notarization, and verification results, and `SHA256SUMS.txt` for file checksums. You may still see the normal confirmation that the app was downloaded from the internet when you first open it.
 
 If macOS says it cannot verify the developer or blocks the app, first confirm that the installer came from this repository's Releases, then report the full message. For other versions, check the build information included with the installer for their notarization status.
 
 If you have a **signed but unnotarized test build**, macOS may block it on first launch. After confirming its source, go to System Settings → Privacy & Security, choose Open Anyway, and confirm Open. This creates an exception for this app; you do not need to disable system-wide security protections. See [Apple's instructions](https://support.apple.com/en-us/102445).
+
+## Software updates
+
+Starting with v0.2.5, macOS supports in-app updates. **Check for updates** in the app menu reads the public releases repository and checks stable releases by default, with an option to include prereleases. Automatic checks and downloads are enabled by default: when a newer version provides a signed update package, the app downloads it in the background and verifies its signature. Installation and restart happen only when you click **Restart and update**.
+
+You can adjust automatic checks and downloads separately. Turning off automatic checks also stops background downloads; manual checks and downloads remain available. If a release has no signed in-app update package, you can still open its release page, download the DMG, and install it manually.
+
+**Users on v0.2.4 or earlier must manually install v0.2.5 or later once before they can use in-app updates.**
 
 ## First use
 

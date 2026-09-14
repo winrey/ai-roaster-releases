@@ -8,7 +8,7 @@
 
 ## 安装
 
-1. 从 [Releases](https://github.com/winrey/ai-roaster-releases/releases) 下载 `YuHuo-AI-Roaster_0.2.4_macOS_universal.dmg` 并打开。
+1. 从 [Releases](https://github.com/winrey/ai-roaster-releases/releases) 下载 `YuHuo-AI-Roaster_0.2.5_macOS_universal.dmg` 并打开。
 2. 将安装包中的应用拖入 **Applications（应用程序）**。
 3. 从“应用程序”打开 **余火**（英文或日文系统显示为 **AI Roaster**）。
 
@@ -18,11 +18,19 @@ Finder 和 Dock 的名称由 macOS 语言设置决定，可能在系统重新识
 
 通用安装包包含 Apple 芯片和 Intel 两种架构。当前实际运行验证使用 macOS 26.1、Apple 芯片；Intel Mac 和更早系统尚未实机验收。
 
-当前推荐 [v0.2.4 正式版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.4)。App 和 DMG 均已使用 Developer ID 签名、通过 Apple 公证并附加票据，Gatekeeper 检查通过。首次打开仍可能显示正常的“从互联网下载”确认提示。
+当前推荐 [v0.2.5 正式版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.5)。签名、公证与验证结果见本 Release 的 `BUILD-INFO.txt` / `NOTARIZATION.json`，文件校验值见 `SHA256SUMS.txt`。首次打开仍可能显示正常的“从互联网下载”确认提示。
 
 若 macOS 提示无法验证开发者或阻止打开，请先确认安装包来自本仓库的 Releases，并反馈完整提示。其他版本是否通过 Apple 公证，以同安装包提供的构建说明为准。
 
 如果收到的是**已签名、未公证的测试包**，首次打开可能被 macOS 阻止。在确认来源后，可以到“系统设置 → 隐私与安全性”选择“仍要打开”，然后确认“打开”。这是针对这个 App 的例外，不需要关闭系统的整体安全保护。操作见 [Apple 官方说明](https://support.apple.com/zh-cn/102445)。
+
+## 软件更新
+
+从 v0.2.5 起，macOS 支持应用内更新。应用菜单中的 **检查软件更新** 读取公开发布仓库，默认只检查正式版本，可选择包含预发布版本。自动检查和自动下载默认开启：发现带签名更新包的新版后，会在后台下载并验证签名，完成后由你点击 **重启并更新** 才安装并重启。
+
+可分别调整自动检查和自动下载偏好；关闭自动检查也会停止后台自动下载，仍可手动检查及下载。若所选版本没有带签名的应用内更新包，仍可打开发布页下载 DMG 并手动安装。
+
+**v0.2.4 及更早版本需要先手动安装一次 v0.2.5 或更新版本，之后才能使用应用内更新。**
 
 ## 第一次使用
 

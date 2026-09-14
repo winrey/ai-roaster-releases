@@ -12,11 +12,15 @@
 
 在 Releases 中选择版本，下载 `YuHuo-AI-Roaster_<版本>_macOS_universal.dmg`。通用安装包同时包含 Apple 芯片和 Intel 架构；每个版本附带安装说明、构建信息和 SHA-256 校验文件。
 
-当前推荐 [0.2.4 正式版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.4)：App 和 DMG 均已使用 Developer ID 签名、通过 Apple 公证并附加票据，Gatekeeper 检查通过。此前版本的状态以各自 Release 为准。Intel Mac 尚未实机验收。
+当前推荐 [0.2.5 正式版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.5)。签名、公证与验证结果见本 Release 的 `BUILD-INFO.txt` / `NOTARIZATION.json`，文件校验值见 `SHA256SUMS.txt`。此前版本的状态以各自 Release 为准。Intel Mac 尚未实机验收。
 
 支持简体中文、English 和日本語界面，默认跟随系统语言。可在“软件设置 → 常规 → 语言”中手动选择，点击“保存设置”后生效并保留选择。应用内中文名称为 **余火**，英文和日文名称为 **AI Roaster**。Finder 和 Dock 的名称由 macOS 语言设置独立决定，可能在系统重新识别应用后更新。
 
-从 0.2.1 起，应用右上角菜单提供“检查软件更新”，通过本仓库公开的 GitHub Releases 检测新版。默认仅检查正式版本；试用预览版需勾选“包含预发布版本”。更新检测只提供下载入口，安装由用户操作。
+从 v0.2.5 起，macOS 支持应用内更新。应用菜单中的 **检查软件更新** 读取公开发布仓库，默认只检查正式版本，可选择包含预发布版本。自动检查和自动下载默认开启：发现带签名更新包的新版后，会在后台下载并验证签名，完成后由你点击 **重启并更新** 才安装并重启。
+
+可分别调整自动检查和自动下载偏好；关闭自动检查也会停止后台自动下载，仍可手动检查及下载。若所选版本没有带签名的应用内更新包，仍可打开发布页下载 DMG 并手动安装。
+
+**v0.2.4 及更早版本需要先手动安装一次 v0.2.5 或更新版本，之后才能使用应用内更新。**
 
 ## 功能
 
