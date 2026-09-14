@@ -1,4 +1,4 @@
-# 余火 — macOS 试用说明
+# 余火 — macOS 安装说明
 
 **简体中文** · [English](INSTALL.en.md) · [日本語](INSTALL.ja.md)
 
@@ -18,7 +18,7 @@ Finder 和 Dock 的名称由 macOS 语言设置决定，可能在系统重新识
 
 通用安装包包含 Apple 芯片和 Intel 两种架构。当前实际运行验证使用 macOS 26.1、Apple 芯片；Intel Mac 和更早系统尚未实机验收。
 
-当前推荐 [v0.2.4 公证预览版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.4)。App 和 DMG 均已使用 Developer ID 签名、通过 Apple 公证并附加票据，Gatekeeper 检查通过。首次打开仍可能显示正常的“从互联网下载”确认提示。
+当前推荐 [v0.2.4 正式版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.4)。App 和 DMG 均已使用 Developer ID 签名、通过 Apple 公证并附加票据，Gatekeeper 检查通过。首次打开仍可能显示正常的“从互联网下载”确认提示。
 
 若 macOS 提示无法验证开发者或阻止打开，请先确认安装包来自本仓库的 Releases，并反馈完整提示。其他版本是否通过 Apple 公证，以同安装包提供的构建说明为准。
 

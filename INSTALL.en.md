@@ -1,4 +1,4 @@
-# AI Roaster — macOS preview guide
+# AI Roaster — macOS installation guide
 
 [简体中文](INSTALL.md) · **English** · [日本語](INSTALL.ja.md)
 
@@ -18,7 +18,7 @@ Quit the older version before installing and starting the new one. The app's int
 
 The universal installer includes both Apple silicon and Intel architectures. Runtime testing has been performed on macOS 26.1 with Apple silicon. Intel Macs and earlier macOS versions have not yet been tested on real devices.
 
-The currently recommended release is the [v0.2.4 notarized preview](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.4). Both the app and DMG are Developer ID signed, notarized by Apple, and stapled with notarization tickets; Gatekeeper checks passed. You may still see the normal confirmation that the app was downloaded from the internet when you first open it.
+The currently recommended release is the [v0.2.4 stable release](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.4). Both the app and DMG are Developer ID signed, notarized by Apple, and stapled with notarization tickets; Gatekeeper checks passed. You may still see the normal confirmation that the app was downloaded from the internet when you first open it.
 
 If macOS says it cannot verify the developer or blocks the app, first confirm that the installer came from this repository's Releases, then report the full message. For other versions, check the build information included with the installer for their notarization status.
 

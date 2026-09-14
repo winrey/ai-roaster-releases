@@ -1,4 +1,4 @@
-# AI Roaster — macOS プレビュー版ガイド
+# AI Roaster — macOS インストールガイド
 
 [简体中文](INSTALL.md) · [English](INSTALL.en.md) · **日本語**
 
@@ -18,7 +18,7 @@ Finder と Dock の名称は macOS の言語設定で決まり、システムが
 
 ユニバーサルインストーラーには Apple シリコンと Intel の両アーキテクチャが含まれます。実際の動作確認は Apple シリコン搭載の macOS 26.1 で行っています。Intel Mac とそれ以前の macOS での実機検証は未実施です。
 
-現在の推奨版は [v0.2.4 公証済みプレビュー版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.4)です。アプリと DMG はいずれも Developer ID で署名され、Apple の公証を受け、公証チケットが添付されています。Gatekeeper の検証にも合格しています。初回起動時には、インターネットからダウンロードされたアプリであることを確認する通常のメッセージが表示される場合があります。
+現在の推奨版は [v0.2.4 正式版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.4)です。アプリと DMG はいずれも Developer ID で署名され、Apple の公証を受け、公証チケットが添付されています。Gatekeeper の検証にも合格しています。初回起動時には、インターネットからダウンロードされたアプリであることを確認する通常のメッセージが表示される場合があります。
 
 開発元を確認できないと表示されたり、macOS に起動を阻止されたりした場合は、まずこのリポジトリの Releases から入手したインストーラーであることを確認し、メッセージ全文を報告してください。他のバージョンの公証状況は、インストーラーに付属するビルド情報を確認してください。
 

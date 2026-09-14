@@ -12,7 +12,7 @@ A personal dashboard for AI subscription usage: view your accounts, remaining qu
 
 Choose a version in Releases and download `YuHuo-AI-Roaster_<version>_macOS_universal.dmg`. The universal installer includes both Apple silicon and Intel architectures. Each release includes installation instructions, build information, and SHA-256 checksums.
 
-The currently recommended release is the [0.2.4 notarized preview](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.4). Both the app and DMG are Developer ID signed, notarized by Apple, and stapled with notarization tickets; Gatekeeper checks passed. See each earlier release for its own verification status. The app has not yet been tested on a physical Intel Mac.
+The currently recommended release is the [0.2.4 stable release](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.4). Both the app and DMG are Developer ID signed, notarized by Apple, and stapled with notarization tickets; Gatekeeper checks passed. See each earlier release for its own verification status. The app has not yet been tested on a physical Intel Mac.
 
 The interface supports English, Simplified Chinese, and Japanese, and follows your system language by default. To choose a language manually, open **Settings → General → Language** and click **Save settings**; your choice takes effect and is saved. The in-app name is **余火** in Chinese and **AI Roaster** in English and Japanese. Finder and Dock use the macOS language setting independently; their displayed name may update after macOS recognizes the app again.
 
