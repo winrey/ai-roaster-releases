@@ -1,4 +1,6 @@
-# 余火 · AI Roaster
+# 余火
+
+**简体中文** · [English](README.en.md) · [日本語](README.ja.md)
 
 **让每份额度都有数。**
 
@@ -12,12 +14,15 @@
 
 当前推荐 [0.2.3 公证预览版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.3)：App 和 DMG 均已使用 Developer ID 签名、通过 Apple 公证并附加票据，Gatekeeper 检查通过。此前版本的状态以各自 Release 为准。Intel Mac 尚未实机验收。
 
+当前已发布的 v0.2.3 安装包中，应用名称仍为 **余火 · AI Roaster**，界面为中文。本页的 English 和日本語入口是文档译本。
+
 从 0.2.1 起，应用右上角菜单提供“检查软件更新”，通过本仓库公开的 GitHub Releases 检测新版。默认仅检查正式版本；试用预览版需勾选“包含预发布版本”。更新检测只提供下载入口，安装由用户操作。
 
 ## 功能
 
 - Codex、Claude 桌面 App 与 Claude Code 的本地登录识别、额度读取和账号切换。
 - 多账号、多个额度周期、手动校正与历史图表。
+- 订阅到期时间、Credit 余额与变化记录、账号标签和标签搜索。
 - 日间、夜间与跟随系统主题，可调节毛玻璃透明度。
 - macOS 菜单栏、开机启动、本地 JSON 导入和导出。
 

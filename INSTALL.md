@@ -1,18 +1,26 @@
-# 余火 · AI Roaster — macOS 试用说明
+# 余火 — macOS 试用说明
+
+**简体中文** · [English](INSTALL.en.md) · [日本語](INSTALL.ja.md)
+
+[返回产品介绍](README.md) · [下载安装包与更新日志](https://github.com/winrey/ai-roaster-releases/releases)
 
 让每份额度都有数。
 
 ## 安装
 
-1. 打开收到的 `.dmg` 安装包。
+1. 从 [Releases](https://github.com/winrey/ai-roaster-releases/releases) 下载 `YuHuo-AI-Roaster_<版本>_macOS_universal.dmg` 并打开。
 2. 将 **余火 · AI Roaster** 拖入 **Applications（应用程序）**。
-3. 从“应用程序”打开余火。
+3. 从“应用程序”打开 **余火 · AI Roaster**。
+
+当前已发布的 v0.2.3 安装包仍使用上述应用名称，界面为中文。本文档的英文和日文版本保留了中文操作名称，方便对照。
 
 安装过旧名称 AI Roaster 的用户，请先退出旧版再启动余火。应用内部标识保持不变，原有账号、授权、设置和历史会继续使用。
 
 通用安装包包含 Apple 芯片和 Intel 两种架构。当前实际运行验证使用 macOS 26.1、Apple 芯片；Intel Mac 和更早系统尚未实机验收。
 
-若 macOS 提示无法验证开发者或阻止打开，请先确认安装包来自发送者，并反馈完整提示。是否通过 Apple 公证，以同安装包提供的构建说明为准。
+当前推荐 [v0.2.3 公证预览版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.3)。App 和 DMG 均已使用 Developer ID 签名、通过 Apple 公证并附加票据，Gatekeeper 检查通过。首次打开仍可能显示正常的“从互联网下载”确认提示。
+
+若 macOS 提示无法验证开发者或阻止打开，请先确认安装包来自本仓库的 Releases，并反馈完整提示。其他版本是否通过 Apple 公证，以同安装包提供的构建说明为准。
 
 如果收到的是**已签名、未公证的测试包**，首次打开可能被 macOS 阻止。在确认来源后，可以到“系统设置 → 隐私与安全性”选择“仍要打开”，然后确认“打开”。这是针对这个 App 的例外，不需要关闭系统的整体安全保护。操作见 [Apple 官方说明](https://support.apple.com/zh-cn/102445)。
 
@@ -28,7 +36,7 @@
 
 ## 数据
 
-安装包不包含发送者的账号、授权或额度记录。账号与授权保存在使用者本机；额度 JSON 导出不包含授权文件。
+安装包不包含开发者的账号、授权或额度记录。账号与授权保存在使用者本机；额度 JSON 导出不包含授权文件。
 
 历史从已有快照与后续采集开始，更早的使用情况不会补造。
 
