@@ -12,11 +12,11 @@ A personal dashboard for AI subscription usage: view your accounts, remaining qu
 
 Choose a version in Releases and download `YuHuo-AI-Roaster_<version>_macOS_universal.dmg`. The universal installer includes both Apple silicon and Intel architectures. Each release includes installation instructions, build information, and SHA-256 checksums.
 
-The currently recommended release is the [0.2.3 notarized preview](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.3). Both the app and DMG are Developer ID signed, notarized by Apple, and stapled with notarization tickets; Gatekeeper checks passed. See each earlier release for its own verification status. The app has not yet been tested on a physical Intel Mac.
+The currently recommended release is the [0.2.4 notarized preview](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.4). Both the app and DMG are Developer ID signed, notarized by Apple, and stapled with notarization tickets; Gatekeeper checks passed. See each earlier release for its own verification status. The app has not yet been tested on a physical Intel Mac.
 
-In the currently published v0.2.3 installer, the app is still named **余火 · AI Roaster** and its interface is in Chinese. The English and Japanese links on this page are translations of the documentation.
+The interface supports English, Simplified Chinese, and Japanese, and follows your system language by default. To choose a language manually, open **Settings → General → Language** and click **Save settings**; your choice takes effect and is saved. The in-app name is **余火** in Chinese and **AI Roaster** in English and Japanese. Finder and Dock use the macOS language setting independently; their displayed name may update after macOS recognizes the app again.
 
-Starting with 0.2.1, the upper-right menu includes “检查软件更新” (Check for software updates), which checks this repository's public GitHub Releases for newer versions. By default, it checks stable releases only; select “包含预发布版本” (Include prereleases) to receive preview releases. Update checks provide a download link; you install updates yourself.
+Starting with 0.2.1, the upper-right menu includes **Check for updates**, which checks this repository's public GitHub Releases for newer versions. By default, it checks stable releases only; select **Include prereleases** to receive preview releases. Update checks provide a download link; you install updates yourself.
 
 ## Features
 

@@ -8,17 +8,17 @@
 
 ## 安装
 
-1. 从 [Releases](https://github.com/winrey/ai-roaster-releases/releases) 下载 `YuHuo-AI-Roaster_<版本>_macOS_universal.dmg` 并打开。
-2. 将 **余火 · AI Roaster** 拖入 **Applications（应用程序）**。
-3. 从“应用程序”打开 **余火 · AI Roaster**。
+1. 从 [Releases](https://github.com/winrey/ai-roaster-releases/releases) 下载 `YuHuo-AI-Roaster_0.2.4_macOS_universal.dmg` 并打开。
+2. 将安装包中的应用拖入 **Applications（应用程序）**。
+3. 从“应用程序”打开 **余火**（英文或日文系统显示为 **AI Roaster**）。
 
-当前已发布的 v0.2.3 安装包仍使用上述应用名称，界面为中文。本文档的英文和日文版本保留了中文操作名称，方便对照。
+Finder 和 Dock 的名称由 macOS 语言设置决定，可能在系统重新识别应用后更新。应用包的实际文件名仍为 `余火 · AI Roaster.app`，无需手动重命名。
 
-安装过旧名称 AI Roaster 的用户，请先退出旧版再启动余火。应用内部标识保持不变，原有账号、授权、设置和历史会继续使用。
+升级前请退出旧版，再安装并启动新版。应用内部标识保持不变，原有账号、授权、设置和历史会继续使用。
 
 通用安装包包含 Apple 芯片和 Intel 两种架构。当前实际运行验证使用 macOS 26.1、Apple 芯片；Intel Mac 和更早系统尚未实机验收。
 
-当前推荐 [v0.2.3 公证预览版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.3)。App 和 DMG 均已使用 Developer ID 签名、通过 Apple 公证并附加票据，Gatekeeper 检查通过。首次打开仍可能显示正常的“从互联网下载”确认提示。
+当前推荐 [v0.2.4 公证预览版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.4)。App 和 DMG 均已使用 Developer ID 签名、通过 Apple 公证并附加票据，Gatekeeper 检查通过。首次打开仍可能显示正常的“从互联网下载”确认提示。
 
 若 macOS 提示无法验证开发者或阻止打开，请先确认安装包来自本仓库的 Releases，并反馈完整提示。其他版本是否通过 Apple 公证，以同安装包提供的构建说明为准。
 
@@ -26,6 +26,7 @@
 
 ## 第一次使用
 
+- 界面支持简体中文、English 和日本語，默认跟随系统语言。可在“软件设置 → 常规 → 语言”中手动选择，再点击“保存设置”；选择会保存并生效。应用内中文名称为 **余火**，英文和日文名称为 **AI Roaster**。
 - 已安装并登录 Codex、Claude 桌面 App 或 Claude Code 时，应用会读取当前账号的订阅与剩余额度。未识别时，在右上角“软件设置”中检查对应客户端路径。
 - 也可以手动添加账号与额度记录；Gemini 等平台目前需要手动维护。
 - 右上角菜单可切换跟随系统、日间模式、夜间模式。
