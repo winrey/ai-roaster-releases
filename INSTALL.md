@@ -8,7 +8,7 @@
 
 ## 安装
 
-1. 从 [Releases](https://github.com/winrey/ai-roaster-releases/releases) 下载 `YuHuo-AI-Roaster_0.2.6_macOS_universal.dmg` 并打开。
+1. 从 [Releases](https://github.com/winrey/ai-roaster-releases/releases) 下载 `YuHuo-AI-Roaster_0.2.7_macOS_universal.dmg` 并打开。
 2. 将安装包中的应用拖入 **Applications（应用程序）**。
 3. 从“应用程序”打开 **余火**（英文或日文系统显示为 **AI Roaster**）。
 
@@ -18,7 +18,7 @@ Finder 和 Dock 的名称由 macOS 语言设置决定，可能在系统重新识
 
 通用安装包包含 Apple 芯片和 Intel 两种架构。当前实际运行验证使用 macOS 26.1、Apple 芯片；Intel Mac 和更早系统尚未实机验收。
 
-当前推荐 [v0.2.6 正式版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.6)。签名、公证与验证结果见本 Release 的 `BUILD-INFO.txt` / `NOTARIZATION.json`，文件校验值见 `SHA256SUMS.txt`。首次打开仍可能显示正常的“从互联网下载”确认提示。
+当前推荐 [v0.2.7 正式版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.7)。签名、公证与验证结果见本 Release 的 `BUILD-INFO.txt` / `NOTARIZATION.json`，文件校验值见 `SHA256SUMS.txt`。首次打开仍可能显示正常的“从互联网下载”确认提示。
 
 若 macOS 提示无法验证开发者或阻止打开，请先确认安装包来自本仓库的 Releases，并反馈完整提示。其他版本是否通过 Apple 公证，以同安装包提供的构建说明为准。
 

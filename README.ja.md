@@ -12,7 +12,7 @@
 
 Releases でバージョンを選び、`YuHuo-AI-Roaster_<バージョン>_macOS_universal.dmg` をダウンロードしてください。ユニバーサルインストーラーには Apple シリコンと Intel の両アーキテクチャが含まれます。各リリースにはインストール手順、ビルド情報、SHA-256 チェックサムが付属します。
 
-現在の推奨版は [0.2.5 正式版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.5)です。署名、公証、検証の結果はこのリリースの `BUILD-INFO.txt` / `NOTARIZATION.json`、ファイルのチェックサムは `SHA256SUMS.txt` を確認してください。過去のバージョンの検証状況は、それぞれのリリースを確認してください。Intel Mac での実機検証は未実施です。
+現在の推奨版は [0.2.7 正式版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.7)です。署名、公証、検証の結果はこのリリースの `BUILD-INFO.txt` / `NOTARIZATION.json`、ファイルのチェックサムは `SHA256SUMS.txt` を確認してください。過去のバージョンの検証状況は、それぞれのリリースを確認してください。Intel Mac での実機検証は未実施です。
 
 画面表示は日本語、簡体字中国語、英語に対応し、初期設定ではシステム言語に合わせます。手動で選ぶ場合は、**設定 → 一般 → 言語**で選択し、**設定を保存**をクリックしてください。選択した言語が反映され、次回以降も保持されます。アプリ内の名称は中国語では **余火**、英語と日本語では **AI Roaster** です。Finder と Dock の名称は macOS の言語設定で個別に決まり、システムがアプリを再認識した後に更新される場合があります。
 

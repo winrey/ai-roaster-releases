@@ -8,7 +8,7 @@ Make every quota count.
 
 ## Installation
 
-1. Download `YuHuo-AI-Roaster_0.2.6_macOS_universal.dmg` from [Releases](https://github.com/winrey/ai-roaster-releases/releases) and open it.
+1. Download `YuHuo-AI-Roaster_0.2.7_macOS_universal.dmg` from [Releases](https://github.com/winrey/ai-roaster-releases/releases) and open it.
 2. Drag the app from the installer into **Applications**.
 3. Open **AI Roaster** from Applications (**余火** on a Chinese-language system).
 
@@ -18,7 +18,7 @@ Quit the older version before installing and starting the new one. The app's int
 
 The universal installer includes both Apple silicon and Intel architectures. Runtime testing has been performed on macOS 26.1 with Apple silicon. Intel Macs and earlier macOS versions have not yet been tested on real devices.
 
-The currently recommended release is the [v0.2.6 stable release](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.6). See this release's `BUILD-INFO.txt` / `NOTARIZATION.json` for signing, notarization, and verification results, and `SHA256SUMS.txt` for file checksums. You may still see the normal confirmation that the app was downloaded from the internet when you first open it.
+The currently recommended release is the [v0.2.7 stable release](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.7). See this release's `BUILD-INFO.txt` / `NOTARIZATION.json` for signing, notarization, and verification results, and `SHA256SUMS.txt` for file checksums. You may still see the normal confirmation that the app was downloaded from the internet when you first open it.
 
 If macOS says it cannot verify the developer or blocks the app, first confirm that the installer came from this repository's Releases, then report the full message. For other versions, check the build information included with the installer for their notarization status.
 

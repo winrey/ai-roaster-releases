@@ -8,7 +8,7 @@
 
 ## インストール
 
-1. [Releases](https://github.com/winrey/ai-roaster-releases/releases) から `YuHuo-AI-Roaster_0.2.6_macOS_universal.dmg` をダウンロードして開きます。
+1. [Releases](https://github.com/winrey/ai-roaster-releases/releases) から `YuHuo-AI-Roaster_0.2.7_macOS_universal.dmg` をダウンロードして開きます。
 2. インストーラー内のアプリを **Applications（アプリケーション）** にドラッグします。
 3. 「アプリケーション」から **AI Roaster** を開きます（中国語のシステムでは **余火** と表示されます）。
 
@@ -18,7 +18,7 @@ Finder と Dock の名称は macOS の言語設定で決まり、システムが
 
 ユニバーサルインストーラーには Apple シリコンと Intel の両アーキテクチャが含まれます。実際の動作確認は Apple シリコン搭載の macOS 26.1 で行っています。Intel Mac とそれ以前の macOS での実機検証は未実施です。
 
-現在の推奨版は [v0.2.6 正式版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.6)です。署名、公証、検証の結果はこのリリースの `BUILD-INFO.txt` / `NOTARIZATION.json`、ファイルのチェックサムは `SHA256SUMS.txt` を確認してください。初回起動時には、インターネットからダウンロードされたアプリであることを確認する通常のメッセージが表示される場合があります。
+現在の推奨版は [v0.2.7 正式版](https://github.com/winrey/ai-roaster-releases/releases/tag/v0.2.7)です。署名、公証、検証の結果はこのリリースの `BUILD-INFO.txt` / `NOTARIZATION.json`、ファイルのチェックサムは `SHA256SUMS.txt` を確認してください。初回起動時には、インターネットからダウンロードされたアプリであることを確認する通常のメッセージが表示される場合があります。
 
 開発元を確認できないと表示されたり、macOS に起動を阻止されたりした場合は、まずこのリポジトリの Releases から入手したインストーラーであることを確認し、メッセージ全文を報告してください。他のバージョンの公証状況は、インストーラーに付属するビルド情報を確認してください。
 
